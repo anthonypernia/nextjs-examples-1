@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+      //De esta manera cuando necesitamos acceder a varios archivos dentro de una carpeta
+        "@components/*": ["components/*"],
+      //De esta manera cuando solo necesitamos un archivo en especifico
+        "@database": ["database/db.js"],
+      }
+    }
+  }
